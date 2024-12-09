@@ -147,13 +147,13 @@ p {
 .header_addlist {
     display: flex;
     gap: 16px;
-
 }
 
 .header_tobarRgt {
     display: flex;
     align-items: center;
     gap: 5px;
+    cursor: pointer;
 }
 
 .dropDown_icon {
