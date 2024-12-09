@@ -331,7 +331,18 @@ margin-bottom: 16px;
 .intro .btn_arrow{
 filter: invert(1);
 }
-
+/* details section */
+.details{
+margin-block: 62px 85px;
+}
+.details_wrapper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+.details_card{
+    width: 100%;
+}
 /* footer section */
 .footer {
     background-color: var(--light-black);
@@ -433,9 +444,10 @@ filter: invert(1);
     gap: 24px;
 }
 
-.social_iocn {
+.social_link {
     width: 24px;
     height: 24px;
+    display: flex;
 }
 
 .footer_copyRight {
